@@ -1,0 +1,23 @@
+# Google service account credentials — NEVER commit
+*.json
+!form_config.json
+
+# Lambda layer build artifacts
+layer/
+layer_build/
+*.zip
+
+# Python virtual environments
+venv/
+create/
+"#"/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Internal operations docs (contain org-specific info)
+"Church Forms Automation — PM Roadmap.md"

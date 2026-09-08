@@ -1,0 +1,24 @@
+{
+  "ses_from": "noreply@yourdomain.org",
+  "admin_email": "admin@yourdomain.org",
+  "api_base_url": "https://YOUR_API_GATEWAY_ID.execute-api.us-east-2.amazonaws.com",
+  "s3_bucket": "YOUR_BUCKET_NAME",
+  "retention_years": 7,
+  "groups": {
+    "background-checks": {
+      "display_name": "Background Checks",
+      "owner_email": "records@yourdomain.org",
+      "owner_name": "Your Name Here",
+      "owner_title": "Your Title Here",
+      "sheet_id": "YOUR_GOOGLE_SHEET_ID",
+      "forms": {
+        "consent-form": {
+          "display_name": "Your Form Display Name",
+          "boldsign_template_id": "YOUR_BOLDSIGN_TEMPLATE_ID",
+          "retention_years": 10,
+          "countersign": false
+        }
+      }
+    }
+  }
+}
